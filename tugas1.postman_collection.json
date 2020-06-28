@@ -1,0 +1,322 @@
+{
+	"info": {
+		"_postman_id": "6249cbf4-ed42-41ef-a649-b4459bcd6c85",
+		"name": "tugas1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/member/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "MemberID",
+							"value": "99",
+							"type": "text"
+						},
+						{
+							"key": "FirstName",
+							"value": "yuyu",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/member/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"member",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/member/5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/member/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"member",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/member/3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "LastName",
+							"value": "Ultra",
+							"type": "text"
+						},
+						{
+							"key": "FirstName",
+							"value": "susu",
+							"type": "text"
+						},
+						{
+							"key": "Title",
+							"value": "milk",
+							"type": "text"
+						},
+						{
+							"key": "TitleOfCourtesy",
+							"value": "minuman",
+							"type": "text"
+						},
+						{
+							"key": "Address",
+							"value": "pabrik susu",
+							"type": "text"
+						},
+						{
+							"key": "City",
+							"value": "banyuwangi",
+							"type": "text"
+						},
+						{
+							"key": "Region",
+							"value": "jawa timur",
+							"type": "text"
+						},
+						{
+							"key": "Country",
+							"value": "indonesia",
+							"type": "text"
+						},
+						{
+							"key": "PostalCode",
+							"value": "457923",
+							"type": "text"
+						},
+						{
+							"key": "HomePhone",
+							"value": "081235661787",
+							"type": "text"
+						},
+						{
+							"key": "Extension",
+							"value": "enak",
+							"type": "text"
+						},
+						{
+							"key": "Photo",
+							"value": "cucu.jpg",
+							"type": "text"
+						},
+						{
+							"key": "Notes",
+							"value": "enak enak nyoi",
+							"type": "text"
+						},
+						{
+							"key": "ReportsTo",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "AdmisionFee",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/member/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"member",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/member/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/member/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"member",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/member",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "MemberID",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "CardID",
+							"value": "0003",
+							"type": "text"
+						},
+						{
+							"key": "LastName",
+							"value": "gaga",
+							"type": "text"
+						},
+						{
+							"key": "FirstName",
+							"value": "gigi",
+							"type": "text"
+						},
+						{
+							"key": "Sex",
+							"value": "F",
+							"type": "text"
+						},
+						{
+							"key": "Title",
+							"value": "one one",
+							"type": "text"
+						},
+						{
+							"key": "TitleOfCourtesy",
+							"value": "human",
+							"type": "text"
+						},
+						{
+							"key": "BirthDate",
+							"value": "1997-7-20",
+							"type": "text"
+						},
+						{
+							"key": "HireDate",
+							"value": "2010-2-20",
+							"type": "text"
+						},
+						{
+							"key": "Address",
+							"value": "muncar",
+							"type": "text"
+						},
+						{
+							"key": "City",
+							"value": "banyuwangi",
+							"type": "text"
+						},
+						{
+							"key": "Region",
+							"value": "jawa timur",
+							"type": "text"
+						},
+						{
+							"key": "PostalCode",
+							"value": "1111",
+							"type": "text"
+						},
+						{
+							"key": "Country",
+							"value": "indonesia",
+							"type": "text"
+						},
+						{
+							"key": "HomePhone",
+							"value": "0123456",
+							"type": "text"
+						},
+						{
+							"key": "Extension",
+							"value": "kamu",
+							"type": "text"
+						},
+						{
+							"key": "Photo",
+							"value": "photo.jpg",
+							"type": "text"
+						},
+						{
+							"key": "Notes",
+							"value": "hahahahaha",
+							"type": "text"
+						},
+						{
+							"key": "ReportsTo",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "AdmisionFee",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/member",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"member"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/member",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/member",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"member"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
